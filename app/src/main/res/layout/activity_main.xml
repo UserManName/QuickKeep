@@ -3,12 +3,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/white">
+    android:background="@color/colorDefault">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@android:color/white"
+        android:background="@color/colorDefault"
         android:orientation="vertical"
         tools:context=".MainActivity">
 
@@ -26,7 +26,7 @@
                 android:layout_height="35dp"
                 android:layout_gravity="center"
                 android:layout_marginEnd="@dimen/low"
-                android:background="@drawable/icon_search" />
+                android:background="@android:drawable/ic_menu_search" />
 
             <EditText
                 style="@style/SearchEditTextStyle"
@@ -37,12 +37,12 @@
 
         <ListView
             android:id="@+id/lvMain"
-            android:layout_marginHorizontal="25dp"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_marginHorizontal="25dp"
             android:dividerHeight="@dimen/low"
+            android:divider="@android:color/transparent"
             tools:listitem="@layout/item">
-
         </ListView>
     </LinearLayout>
 
@@ -50,40 +50,55 @@
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_gravity="bottom"
-        android:background="@android:color/white"
+        android:background="@color/colorDefault"
         android:elevation="6dp"
-        android:paddingLeft="@dimen/low">
+        android:paddingLeft="@dimen/low"
+        android:paddingRight="25dp">
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@android:color/transparent"
-            android:textColor="@android:color/black"
-            android:text="Заметка..."/>
+            android:textColor="@android:color/darker_gray"
+            style="@style/Button"
+            android:onClick="addItem"
+            android:text="Заметка..."
+            android:layout_marginRight="25dp"
+            android:layout_weight="3"/>
 
-        <Button
-            android:layout_width="50dp"
-            android:layout_height="wrap_content"
-            android:text="Ф"/>
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:background="@android:drawable/ic_menu_camera"
+            android:layout_weight="1"/>
 
-        <Button
-            android:layout_width="50dp"
-            android:layout_height="wrap_content"
-            android:text="В"/>
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:background="@android:drawable/ic_menu_gallery"
+            android:layout_weight="1" />
 
-        <Button
-            android:layout_width="50dp"
-            android:layout_height="wrap_content"
-            android:text="З"/>
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:background="@android:drawable/ic_btn_speak_now"
+            android:layout_weight="1" />
 
-        <Button
-            android:layout_width="50dp"
-            android:layout_height="wrap_content"
-            android:text="С"/>
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:background="@android:drawable/ic_menu_agenda"
+            android:layout_weight="1" />
 
-        <Button
-            android:layout_width="50dp"
-            android:layout_height="wrap_content"
-            android:text="Г"/>
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:background="@android:drawable/ic_menu_edit"
+            android:layout_weight="1" />
     </LinearLayout>
 </FrameLayout>
