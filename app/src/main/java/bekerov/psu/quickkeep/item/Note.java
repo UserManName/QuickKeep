@@ -1,16 +1,16 @@
 package bekerov.psu.quickkeep.item;
 
-public class Item {
+public class Note {
 
     private String headlineText;
     private String anotherText;
 
-    public Item() {
+    public Note() {
         this.headlineText = "Заголовок";
         this.anotherText = "Содержаниеttе";
     }
 
-    public Item(String headlineText, String anotherText) {
+    public Note(String headlineText, String anotherText) {
         this.headlineText = headlineText;
         this.anotherText = anotherText;
     }

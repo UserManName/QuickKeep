@@ -7,17 +7,17 @@
         <corners android:radius="10dp" />
     </shape>
 
-    <!--<item>
+    <!--<note>
         <shape android:shape="rectangle">
             &lt;!&ndash;<solid android:color="#27747474"/>&ndash;&gt;
             <corners android:radius="10dp"/>
         </shape>
-    </item>-->
+    </note>-->
     <!-- White Top color -->
-  <!--  <item android:bottom="1dp">
+  <!--  <note android:bottom="1dp">
         <shape android:shape="rectangle">
             <solid android:color="#FFFFFF"/>
             <corners android:radius="10dp"/>
         </shape>
-    </item>-->
+    </note>-->
 <!--</layer-list>-->

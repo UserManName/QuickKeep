@@ -12,20 +12,20 @@
         <item name="android:background">@android:color/transparent</item> //NO UNDERBAR
         <item name="android:maxLines">1</item>
         <item name="android:textColor">@android:color/black</item>
-        <!--<item name="android:height">28dp</item> //COMMON HEIGHT-->
+        <!--<note name="android:height">28dp</note> //COMMON HEIGHT-->
     </style>
 
     <style name="EditTextStyle">
         <item name="android:background">@android:color/transparent</item> //NO UNDERBAR
         <item name="android:maxLines">1</item>
-        <!--<item name="android:height">28dp</item> //COMMON HEIGHT-->
+        <!--<note name="android:height">28dp</note> //COMMON HEIGHT-->
     </style>
 
     <style name="HeadlineEditTextStyle">
         <item name="android:background">@android:color/transparent</item> //NO UNDERBAR
         <item name="android:maxLines">1</item>
         <item name="android:textStyle">bold</item>
-        <!--<item name="android:height">28dp</item> //COMMON HEIGHT-->
+        <!--<note name="android:height">28dp</note> //COMMON HEIGHT-->
     </style>
 
     <style name="Button" parent="Widget.AppCompat.Button">

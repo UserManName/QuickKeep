@@ -4,8 +4,11 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:padding="@dimen/low"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="@dimen/low"
+    android:layout_marginHorizontal="25dp"
     android:background="@drawable/search_border_shadow"
-    android:elevation="2dp"
+    android:elevation="1dp"
     >
 
     <TextView
